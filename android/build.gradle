@@ -18,11 +18,11 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion safeExtGet('compileSdkVersion', 30.0.2)
-    buildToolsVersion safeExtGet('buildToolsVersion', '27.0.3')
+    compileSdkVersion safeExtGet('compileSdkVersion', 30)
+    buildToolsVersion safeExtGet('buildToolsVersion', '30.0.2')
 
     defaultConfig {
-        minSdkVersion 18
+        minSdkVersion 21
         targetSdkVersion safeExtGet('targetSdkVersion', 30)
     }
     lintOptions {
